@@ -1,0 +1,46 @@
+baseURL = "http://paulelvers.com/"
+languageCode = "en-us"
+title = "paul elvers"
+theme= "archie"
+copyright = "© Paul"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+paginate=4
+
+[params]
+	favicon="https://img.icons8.com/officel/16/000000/chevron-right.png"
+	# mode="auto"
+	useCDN=false
+	subtitle = "some things data"
+	description = "Archie is a Minimal and Clean theme for Hugo"
+
+	[[params.social]]
+	name = "GitHub"
+	icon = "github"
+	url = "https://github.com/athul/archie"
+
+	[[params.social]]
+	name = "Twitter"
+	icon = "twitter"
+	url = "https://github.com/athulcajay/"
+
+	[[menu.main]]
+	name = "Home"
+	url = "/"
+	weight = 1
+
+	[[menu.main]]
+	name = "blog"
+	url = "/posts"
+	weight = 2
+
+	[[menu.main]]
+	name = "about"
+	url = "/about"
+	weight = 3
+
+	[[menu.main]]
+	name = "tags"
+	url = "/tags"
+	weight = 4
