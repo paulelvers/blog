@@ -22,6 +22,5 @@ jobs:
           external_repository: paulelvers/paulelvers.github.io
           publish_dir: ./public
           user_name: paulelvers
-          user_email: paul.elvers@datadrivers.de
           publish_branch: master
           cname: www.paulelvers.com
