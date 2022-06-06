@@ -24,4 +24,4 @@ jobs:
           external_repository: paulelvers/paulelvers.github.io
           publish_dir: ./public
           publish_branch: master
-          cname: www.paulelvers.de
+          cname: www.paulelvers.com
