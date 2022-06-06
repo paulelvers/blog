@@ -20,4 +20,6 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.TOKEN }}
+          external_repository: paulelvers/paulelvers.github.io
           publish_dir: ./public
+          cname: www.paulelvers.de
