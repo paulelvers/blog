@@ -22,4 +22,5 @@ jobs:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: paulelvers/paulelvers.github.io
           publish_dir: ./public
+          publish_branch: master
           cname: www.paulelvers.de
